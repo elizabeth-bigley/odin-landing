@@ -70,8 +70,9 @@ ul {
 }
 
 .hero-image {
-    height: 400px;
-    width: auto;
+    width: 100%
+    max-width: 400px;
+    height: auto;
 }
 
 .left-section {
