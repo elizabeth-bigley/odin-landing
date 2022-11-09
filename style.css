@@ -8,7 +8,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 30px 350px 30px 350px;
+    padding: 5% 15%;
 }
 
 .logo {
@@ -70,9 +70,8 @@ ul {
 }
 
 .hero-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+    height: 400px;
+    width: auto;
 }
 
 .left-section {
@@ -80,4 +79,9 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
 }
