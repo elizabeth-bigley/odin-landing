@@ -81,7 +81,39 @@ ul {
     width: 400px;
 }
 
-.information {
+.information-contents {
+    display: flex;
+    width: vp;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    padding-bottom: 10%; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.info-item-1, .info-item-2, .info-item-3, .info-item-4 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding: 1em;
+}
+
+.info-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.image-caption {
+    flex-wrap: wrap;
+    text-align: center;
 }
