@@ -27,12 +27,17 @@ body {
     padding-bottom: 1em;
 }
 
+.hero-secondary {
+    line-height: 1.4;
+}
+
 .hero-main {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
-    padding: 0;
+    padding: 0px 0px 20px 0px;
     margin: 0;
+    line-height: 0.9;
 }
 
 .hero-button {
@@ -42,6 +47,7 @@ body {
     padding: .5em 1.5em;
     border-radius: 8px;    
     border: none;
+    margin-top: 10px;
 }
 
 .head-nav {
@@ -70,8 +76,8 @@ ul {
 }
 
 .hero-image {
-    height: 400px;
-    width: auto;
+    height: 300px;
+    width: 600px;
 }
 
 .left-section {
