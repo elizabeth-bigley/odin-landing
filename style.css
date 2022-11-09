@@ -93,9 +93,9 @@ ul {
     justify-content: center;
     gap: 32px;
     align-items: center;
-    padding-bottom: 10%; 
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-bottom: 8%; 
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .info-item-1, .info-item-2, .info-item-3, .info-item-4 {
